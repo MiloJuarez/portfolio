@@ -1,0 +1,42 @@
+.EducationLevel {
+    width: 100%;
+    margin-top: calc(var(--def-margin) * 2);
+    padding: 0 var(--def-padding);
+    box-sizing: border-box;
+    animation: toTopAnimation 2s ease-out forwards;
+}
+
+@keyframes toTopAnimation {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+        background-color: var(--primary-color);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        background-color: unset;
+    }
+}
+
+.EducationLevel__label {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.EducationLevel__container .row {
+    margin: var(--def-margin) 0;
+}
+
+.EducationLevel__container .row .cel img {
+    margin-top: calc(var(--def-margin) / 2);
+}
+
+.EducationLevel__container .row .cel:first-child {
+    font-weight: bold;
+    font-family: var(--txt-font-family);
+}
+
+.EducationLevel__container .row .cel:last-child {
+    padding-left: var(--def-padding);
+}
