@@ -23,7 +23,7 @@ const Profile = () => {
             <EducationLevel
                 school={{
                     name: "Universida Tecnológica de la selva",
-                    career: "Ingeniería en Tecnologías de la Información",
+                    career: "Engineer in Information Tecnologies",
                     period: "2017-2021",
                     website: "http://www.utselva.edu.mx/",
                 }}
