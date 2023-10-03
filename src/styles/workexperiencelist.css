@@ -1,0 +1,28 @@
+.WorkExperienceList {
+    width: 100%;
+    min-width: var(--min-width);
+    padding: var(--def-padding);
+    margin-bottom: calc(var(--def-margin) * 3.5);
+    animation: toTopAnimation 2s ease-out forwards;
+    box-sizing: border-box;
+}
+
+.WorkExperienceList__container {
+    height: 40vh;
+    overflow-y: scroll;
+    box-shadow: 0 4px 4px rgba(18, 111, 148, 0.849) inset;
+}
+
+.WorkExperienceList__container::-webkit-scrollbar {
+    display: none;
+}
+
+.WorkExperienceList__container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.WorkExperienceList__label {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}

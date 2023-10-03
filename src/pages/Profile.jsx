@@ -2,10 +2,12 @@ import React from "react";
 
 import "../styles/profile.css";
 import utsLogo from "../assets/img/logo-uts.png";
+import workExperiences from "../utils/workExperiences";
 
 import Header from "../Components/Header";
-import EducationLevel from "../Components/EducationLevel";
 import TypingEffect from "../Components/TypingEffect";
+import EducationLevel from "../Components/EducationLevel";
+import WorkExperienceList from "../containers/WorkExperienceList";
 
 const Profile = () => {
     return (
@@ -29,6 +31,8 @@ const Profile = () => {
                 }}
                 logo={utsLogo}
             />
+
+            <WorkExperienceList workExperienceList={workExperiences} />
         </div>
     );
 };

@@ -34,3 +34,16 @@ p {
 #app {
     box-sizing: border-box;
 }
+
+@keyframes toTopAnimation {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+        background-color: var(--primary-color);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        background-color: unset;
+    }
+}

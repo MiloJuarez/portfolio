@@ -6,19 +6,6 @@
     animation: toTopAnimation 2s ease-out forwards;
 }
 
-@keyframes toTopAnimation {
-    from {
-        transform: translateY(100vh);
-        opacity: 0;
-        background-color: var(--primary-color);
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-        background-color: unset;
-    }
-}
-
 .EducationLevel__label {
     width: 100%;
     border-bottom: 1px solid #fff;
