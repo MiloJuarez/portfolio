@@ -9,8 +9,9 @@
 
 .WorkExperienceList__container {
     height: 40vh;
+    padding: var(--def-padding) 0;
     overflow-y: scroll;
-    box-shadow: 0 4px 4px rgba(18, 111, 148, 0.849) inset;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2) inset;
 }
 
 .WorkExperienceList__container::-webkit-scrollbar {

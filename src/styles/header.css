@@ -17,24 +17,22 @@
     box-shadow: 0 4px 3px #1c7fcf52;
 }
 
-.header__profile-navbar p {
+.header__profile-navbar h4 {
     margin: 0;
     padding: 8px 0;
 }
 
 .header__title {
     font-size: 14pt;
+    font-weight: 300;
 }
 
 .header__profile {
-    width: calc(100% - 32px);
+    width: 300px;
     margin: 0 auto;
-    border-left: 1px solid #4dacf58c;
-    border-right: 1px solid #4dacf58c;
-    border-bottom: 1px solid #4dacf58c;
     border-radius: 0 0 16px 16px;
     padding: var(--def-padding) 8px 8px;
-    box-shadow: 1px 4px 2px #1483df52;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
 }
 
@@ -44,12 +42,10 @@
     text-align: center;
 }
 .header__profile-cover {
+    display: block;
     width: 200px;
     height: 250px;
     margin-top: var(--def-padding);
     border-radius: 50%;
-    background-image: url("https://avatars.githubusercontent.com/u/48868937?v=4");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: cover;
 }

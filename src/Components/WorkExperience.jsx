@@ -2,9 +2,9 @@ import React from "react";
 
 import "../styles/workexperience.css";
 
-const WorkExperience = ({ workExperience }) => {
+const WorkExperience = ({ workExperience, uniqueId }) => {
     return (
-        <div className='WorkExperience'>
+        <article className='WorkExperience'>
             <div className='WorkExperience__enterprise'>
                 <h4 className='WorkExperience__enterprise-label'>
                     <a
@@ -31,12 +31,14 @@ const WorkExperience = ({ workExperience }) => {
                     <span>Tools</span>
                     <div>
                         {workExperience.tools.map((tool) => (
-                            <div className='WorkTool'>{tool}</div>
+                            <div className='WorkTool' key={tool}>
+                                {tool}
+                            </div>
                         ))}
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     );
 };
 

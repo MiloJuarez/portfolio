@@ -1,5 +1,6 @@
 const workExperiences = [
     {
+        id: 1,
         enterprise: 'Muebles America S.A de C.V',
         url: 'https://www.mueblesamerica.mx/',
         location: 'Guadalajara, Jalisco',
@@ -20,6 +21,7 @@ const workExperiences = [
         endDate: '30-Sep-2023'
     },
     {
+        id: 2,
         enterprise: 'AORI',
         url: 'https://www.aori.mx/',
         location: 'Guadalajara, Jalisco',
@@ -39,6 +41,7 @@ const workExperiences = [
         endDate: '07-Nov-2022'
     },
     {
+        id: 3,
         enterprise: 'AppArte',
         url: 'http://www.apparte.com.mx/',
         location: 'Ocosingo, Chiapas',
@@ -61,6 +64,7 @@ const workExperiences = [
         endDate: '14-Feb-2022'
     },
     {
+        id: 4,
         enterprise: 'Asciende Computación SA de CV',
         url: 'https://as.com.mx/',
         location: 'Guadalajara, Jalisco',

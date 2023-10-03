@@ -10,7 +10,10 @@ const WorkExperienceList = ({ workExperienceList }) => {
             <h2 className='WorkExperienceList__label'>Work experiences</h2>
             <div className='WorkExperienceList__container'>
                 {workExperienceList.map((workExperience) => (
-                    <WorkExperience workExperience={workExperience} />
+                    <WorkExperience
+                        workExperience={workExperience}
+                        key={workExperience.id}
+                    />
                 ))}
             </div>
         </div>

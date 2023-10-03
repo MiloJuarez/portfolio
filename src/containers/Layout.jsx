@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/layout.css";
 
 const Layout = ({ children }) => {
-    return <div className='Layout'>{children}</div>;
+    return <main className='Layout'>{children}</main>;
 };
 
 export default Layout;
