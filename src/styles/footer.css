@@ -1,0 +1,76 @@
+.Footer {
+    width: 100%;
+    min-width: var(--min-width);
+    height: auto;
+    background: linear-gradient(#4dabf5, #000);
+}
+.Footer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 var(--def-padding) var(--def-padding) var(--def-padding);
+    font-family: var(--txt-font-family);
+    box-sizing: border-box;
+}
+
+.Footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer__social a {
+    display: flex;
+    align-items: end;
+    padding: calc(var(--def-padding) / 2);
+    color: #fff;
+    text-decoration: none;
+}
+
+.Footer__social a span {
+    margin: 0 calc(var(--def-margin) / 2);
+}
+
+.Footer__social a img {
+    width: 30px;
+    height: 30px;
+}
+
+.Footer__contactme form .Contact__content > div {
+    margin-bottom: var(--def-margin);
+}
+
+.Footer__contactme form .Contact__content > div input,
+div textarea {
+    width: 100%;
+    padding: calc(var(--def-padding) / 2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.Footer__contactme form .Contact__content > div input {
+    height: 25px;
+}
+
+.Contact__form-submit {
+    width: 100%;
+    min-width: 100px;
+    padding: var(--def-padding);
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.Footer__info p {
+    margin: 0;
+    padding: var(--def-padding);
+    font-size: 10pt;
+}
+
+.Footer__info p a {
+    font-family: var(--txt-font-family);
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--primary-color);
+}
