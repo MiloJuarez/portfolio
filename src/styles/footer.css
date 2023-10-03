@@ -12,6 +12,18 @@
     box-sizing: border-box;
 }
 
+#Contact__error {
+    display: none;
+    color: rgb(226, 176, 38);
+    margin-bottom: calc(var(--def-margin) / 2);
+}
+
+#Contact__success {
+    display: none;
+    color: #41df7d;
+    margin-bottom: var(--def-margin);
+}
+
 .Footer__social {
     display: flex;
     flex-direction: column;
