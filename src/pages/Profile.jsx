@@ -22,6 +22,7 @@ const Profile = () => {
                     delay={30}
                 />
             </p>
+            <WorkExperienceList workExperienceList={workExperiences} />
             <EducationLevel
                 school={{
                     name: "Universida Tecnológica de la selva",
@@ -31,8 +32,6 @@ const Profile = () => {
                 }}
                 logo={utsLogo}
             />
-
-            <WorkExperienceList workExperienceList={workExperiences} />
         </div>
     );
 };
