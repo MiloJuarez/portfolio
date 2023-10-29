@@ -16,6 +16,7 @@ body {
     color: #fff;
     font-weight: 200;
     font-family: var(--page-font-family);
+    background: linear-gradient(#000, #4dabf5);
     word-spacing: 0px;
     box-sizing: border-box;
 }

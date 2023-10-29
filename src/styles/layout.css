@@ -1,9 +1,6 @@
 .Layout {
     width: 100%;
-    height: 100vh;
     margin: 0 auto;
-    /* padding: 16px; */
-    background: linear-gradient(#000, #4dabf5);
     box-sizing: border-box;
     overflow-y: auto;
 }

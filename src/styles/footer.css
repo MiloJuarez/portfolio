@@ -2,7 +2,6 @@
     width: 100%;
     min-width: var(--min-width);
     height: auto;
-    background: linear-gradient(#4dabf5, #000);
 }
 .Footer__content {
     display: grid;
@@ -83,6 +82,5 @@ div textarea {
 .Footer__info p a {
     font-family: var(--txt-font-family);
     font-weight: 400;
-    text-decoration: none;
     color: var(--primary-color);
 }

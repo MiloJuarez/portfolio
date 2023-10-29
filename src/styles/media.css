@@ -1,0 +1,72 @@
+@media screen and (min-width: 480px) {
+    body > div {
+        max-width: 980px;
+        min-width: 480px;
+        margin: 0 auto;
+    }
+    .Layout {
+        overflow: unset !important;
+    }
+
+    .WorkExperienceList__container {
+        height: fit-content !important;
+        display: flex;
+        padding: 10px;
+        overflow-y: hidden !important;
+        overflow-x: scroll !important;
+    }
+
+    .WorkExperienceList__container::-webkit-scrollbar-track {
+        color: red;
+    }
+
+    .WorkExperienceList__container::-webkit-scrollbar {
+        display: block !important;
+        box-shadow: 0 4px 8px 0 var(--primary-color) inset;
+        height: 10px;
+    }
+
+    .WorkExperienceList__container::-webkit-scrollbar-thumb {
+        background: linear-gradient(#4dabf5, #000);
+        border-radius: 8px;
+    }
+
+    .WorkExperience {
+        padding: var(--def-padding);
+        margin: var(--def-margin);
+        border-bottom: none;
+        margin-bottom: 0 !important;
+    }
+
+    .Footer {
+        background: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .header > div {
+        position: relative;
+        width: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header__profile-navbar {
+        justify-content: center;
+        background-color: unset !important;
+        box-shadow: none !important;
+    }
+
+    .header__profile {
+        z-index: 2;
+    }
+
+    .Footer__info p a {
+        color: #000 !important;
+    }
+}

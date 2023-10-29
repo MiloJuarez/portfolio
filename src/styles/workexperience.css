@@ -1,12 +1,13 @@
 .WorkExperience {
-    width: 100%;
-    min-width: var(--min-width);
-    margin: 0 auto;
+    min-width: 280px;
+    height: fit-content;
+    margin: var(--def-margin);
     margin-bottom: calc(var(--def-margin) * 2);
     padding: calc(var(--def-padding) / 2);
     box-sizing: border-box;
     border-bottom: 1px solid var(--primary-color);
     font-family: var(--txt-font-family);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .WorkExperience__enterprise {

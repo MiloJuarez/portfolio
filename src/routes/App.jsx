@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "../styles/default.css";
+import "../styles/media.css";
 import Layout from "../containers/Layout";
 import Profile from "../pages/Profile.jsx";
 
